@@ -1,0 +1,10 @@
+static website 
+
+
+dyanamic website  changes a lot using backend server,launguages
+it process the request it doesnt contain readily 
+
+
+How web works ??
+request and response 
+
