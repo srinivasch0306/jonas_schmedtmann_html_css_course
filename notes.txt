@@ -11,3 +11,17 @@ request and response
 html -Nouns
 css -adjectives  decribes the Nouns
 javascript -verb 
+
+html is core in web desgin
+Markup launguage
+
+we can set the Structure and content
+
+Building Blocks of Html -Element 
+  1.Opening tag <p>
+  2.Content of the Element
+  3.Closing tag </p>
+
+
+  Structure
+  
