@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!-- <style>
+      h1 {
+        color: aqua;
+      }
+    </style> -->
+    <link rel="stylesheet" href="index.css">
   </head>
 
   <body>
@@ -25,7 +31,7 @@
     </header>
     <article>
       <header>
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <p id="post">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
 
         <h2>The Basic Language of the Web: HTML</h2>
         <img
@@ -47,7 +53,7 @@
       </header>
 
       <h3>What is HTML?</h3>
-      <img src="post-img.jpg" alt="html" width="500" height="200" />
+      <img src="../fundamentals_of_html/post-img.jpg" alt="html" width="500" height="200" />
       <p>
         HTML stands for HyperText Markup Language. It's a markup language that
         web developers use to structure and describe the content of a webpage
@@ -99,30 +105,32 @@
     </article>
 
     <aside>
-      <p>Realated Posts</p>
-      <ul>
+      <h4>Realated Posts</h4>
+      <ul id="ulo">
         <li>
-          <img src="related-1.jpg" alt="" width="75" height="75" />
+          <img src="../fundamentals_of_html/related-1.jpg" alt="" width="75" height="75" />
           <a href="#">  how to learn web developemnt</a>
         </li>
 
         <br>
-        <p>By jonas</p>
+        <p class="related-author">By jonas</p>
         <br>
 
-        <li><img src="related-2.jpg" alt="" width="75" height="75" /> <a href="#">THE unknow power of css</a></li>
+        <li><img src="../fundamentals_of_html/related-2.jpg" alt="" width="75" height="75" /> <a href="#">THE unknow power of css</a></li>
         <br>
-        <p>By Jim Dilon</p>
+        <p class="related-author">By Jim Dilon</p>
 
         <br>
 
-        <li><img src="related-3.jpg" alt="" width="75" height="75" /><a href="#"> WHY JAASCRIPT is AWESome</a></li>
+        <li><img src="../fundamentals_of_html/related-3.jpg" alt="" width="75" height="75" /><a href="#"> WHY JAASCRIPT is AWESome</a></li>
         <br>
-        <p>BY MARE</p>
+        <p class="related-author">BY MARE</p>
       </ul>
       <br>
     </aside>
 
-    <footer>Copywrite &copy; 2027 by the Code Magazine</footer>
+    <footer>
+      <p id="foot">Copywrite &copy; 2027 by the Code Magazine</p>
+    </footer>
   </body>
 </html>
