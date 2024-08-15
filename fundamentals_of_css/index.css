@@ -5,10 +5,15 @@ h4,
 p,
 li {
   font-family: sans-serif;
+  color: grey;
+}
+
+h1,h2,h3{
+  color: aqua;
 }
 
 h1 {
-  /* color: aqua;  */
+  /* color: rgb(17, 160, 255);  */
   font-size: 26px;
   /* font-family: sans-serif; */
   text-transform: uppercase;
@@ -72,6 +77,23 @@ footer p {
   font-weight: bold;
 }
 
-#ulo {
+.ulo {
   list-style: none;
+}
+
+
+.head{
+  background-color:#e2dfdf
+}
+aside{
+  background-color: #e2dfdf;
+  /* border: 5px solid blue; */
+  border-top: 5px solid blue;
+  border-bottom: 5px solid blue;
+}
+
+
+body{
+  /* background-color: blueviolet; */
+  border: 5px solid black;
 }
