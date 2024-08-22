@@ -1,19 +1,18 @@
+body{
+  /* color: rgb(209, 0, 0); */
+  /* border: 3px solid saddlebrown; */
+}
+
 h1,
 h2,
 h3,
-h4,
 p,
 li {
   font-family: sans-serif;
-  color: grey;
 }
 
-h1,h2,h3{
-  color: aqua;
-}
-
-h1 {
-  /* color: rgb(17, 160, 255);  */
+h1 { 
+  color: #ec5f0d;
   font-size: 26px;
   /* font-family: sans-serif; */
   text-transform: uppercase;
@@ -38,62 +37,127 @@ h4 {
 
 p {
   font-size: 22px;
-  /* font-family: sans-serif; */
+  /* font-family:sans-serif; */
   line-height: 1.5;
 }
 
 li {
-  font-size: 20px;
   /* font-family: sans-serif; */
+  font-size: 20px;
 }
 
-footer p {
+/* footer p {
   font-size: 16px;
-}
+} */
 
 /* article header p{
   font-style: italic;
 } */
 
-#post {
+#author{
+  /* color: aqua; */
   font-style: italic;
-  text-transform: uppercase;
   font-size: 18px;
 
 }
- 
-#foot{
-  font-size: 13px;
-  text-transform: uppercase;
-  font-family: sans-serif;
-  font-family: sans-serif;
-  text-align: center;
 
+#copyright{
+  font-size: 16px;
 }
 
 .related-author{
   font-size: 18px;
-  font-family: sans-serif;
   font-weight: bold;
 }
 
-.ulo {
+/* #related{
+  list-style: none;
+  list-style: none;
+  font-size: large;
+} */
+
+.related{
+  /* color: blue; */
   list-style: none;
 }
 
+*{
+  /* background-color: rgb(192, 207, 190); */
+  /* border: 3px solid brown; */
+}
+
+aside{
+  border: 5px solid aqua;
+  background-color: rgb(212, 212, 212);
+  width: 500px;
+
+}
+
+li:first-child{
+  font-weight: bold;
+}
+
+li:last-child{
+  font-style: italic;
+}
+
+li:nth-child(3){
+  /* color: red; */
+}
+
+/* working but it should not */
+article p:first-child{
+  color: rgb(172, 253, 20);
+  /* background-color: black; */
+}
+
+/* hyper links */
+a:link{
+  color: rgb(152, 180, 231);
+  text-decoration: none;
+
+}
+
+a:visited{
+  color: black;
+}
+
+a:hover{
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline wavy orangered;
+}
+
+a:active{
+  background-color: black;
+  font-style: italic;
+}
+
+#copyright{
+  color: chartreuse;
+}
+
+a{
+  color: red;
+}
+
+.sd{
+  color: violet;
+
+}
 
 .head{
-  background-color:#e2dfdf
-}
-aside{
-  background-color: #e2dfdf;
-  /* border: 5px solid blue; */
-  border-top: 5px solid blue;
-  border-bottom: 5px solid blue;
+  background-color: #c5b8b0;
+  padding: 43px;
+  margin: 22px;
 }
 
+.ios{
+  padding-left: 10px;
+}
 
-body{
-  /* background-color: blueviolet; */
-  border: 5px solid black;
+.container{
+  width:700px;
+  margin-left: auto;
+  margin-right: auto;
 }
